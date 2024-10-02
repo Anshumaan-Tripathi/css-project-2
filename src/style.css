@@ -102,10 +102,10 @@ nav h4{
 }
 
 #banner-image{
-    height: 60vh;
+    height: 100vh;
     background-image: url('https://plus.unsplash.com/premium_photo-1661302819895-87ed85db1b59?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2ludGVyJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D');
     background-size: cover;
-    background-position: 0 30%;
+    background-position: 0 10%;
     margin-top: 30px;
 }
 
@@ -164,7 +164,7 @@ nav h4{
 
 #banner-image{
     height: 60vh;
-    background-position: 58% 30%;
+    background-position: 93% 30%;
     margin-top: 30px;
 }
 
@@ -217,5 +217,6 @@ nav h4{
 
     #banner-image{
         height: 100vh;
+        background-position: -83% 30%
     }
 }
