@@ -10,7 +10,7 @@ html,body{
 }
 #main{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1900px;
     height: 100%;
     width: 100%;
 }
@@ -20,6 +20,7 @@ nav{
     align-items: center;
     justify-content: end;
     padding: 1.2em;
+    padding-right: 4.2rem;
 }
 nav h4{
     font-size: 1rem;
@@ -103,4 +104,115 @@ nav h4{
     background-size: cover;
     background-position: 0 30%;
     margin-top: 30px;
+}
+
+@media screen and (max-width:830px){
+    #main{
+    margin: 0 auto;
+    max-width: 1900px;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    padding-bottom: 2em;
+}
+nav h4{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.bag{
+    height: 34px;
+    width: 34px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bag i {
+    color: white;
+    padding-bottom: 2px;
+}
+
+
+.center{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1.5rem 0 4.7rem;
+    font-size: 14px;
+}
+
+.paragraph-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.paragraph{
+    width: 350px;
+    margin-top: 30px;
+}
+.paragraph p{
+    line-height: 20px;
+}
+
+
+
+#banner-image{
+    height: 60vh;
+    background-position: 58% 30%;
+    margin-top: 30px;
+}
+
+}
+
+
+@media  screen and (max-width:576px) {
+
+
+    .center h1{
+        font-size: 3em;
+        font-weight: 400;
+    }
+
+    .paragraph-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+    .right .links{
+        display: flex;
+        align-items: center;
+        height: 40px;
+    }
+
+    nav{
+        gap: 2.7em;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1.2em;
+    }
+
+    .center{
+        padding: 3.1rem 1.5rem 0 3.8rem;
+        font-size: 14px;
+    }
+    .right{
+        margin-top: 26px;
+        margin-right: 40px;
+    }
+
+}
+
+@media  screen and (max-width:430px) {
+    #main{
+        width: fit-content;
+    }
+
+    #banner-image{
+        height: 100vh;
+    }
 }
