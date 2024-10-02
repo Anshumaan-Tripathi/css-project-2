@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    gap: 2.7em;
+    align-items: center;
+    justify-content: end;
+    padding: 1.2em;
+}
+nav h4{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.bag{
+    height: 34px;
+    width: 34px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bag i {
+    color: white;
+    padding-bottom: 2px;
+}
+.center{
+    width: 100%;
+    height: auto;
+    padding: 3.1rem 3.5rem 0 4.7rem;
+}
+.center h1{
+    font-size: 4em;
+    font-weight: 400;
+}
+.paragraph-container{
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph{
+    width: 350px;
+    margin-top: 30px;
+}
+.paragraph p{
+    line-height: 25px;
+}
+.right{
+    margin-top: 58px;
+    margin-right: 40px;
+}
+.right .links{
+    border-top: 2px solid rgb(103, 102, 102);
+    width: 260px;
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.links:hover .arrow i{
+    opacity: 1;
+}
+.links:hover .link{
+        text-decoration: underline;
+        text-decoration-color: rgb(103, 102, 102); 
+        text-underline-offset: 4px;
+}
+
+.arrow i  {
+    opacity: 0;
+    font-size: 35px;
+    font-weight: 100;
+    color:rgb(103, 102, 102); 
+    text-decoration: none;
+}
+
+#banner-image{
+    height: 60vh;
+    background-image: url('https://www.realsimple.com/thmb/lpu5zoVM1E3pR8yW9NZgQOHXNt4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/style-a-leather-jacket-GettyImages-1355372192-12683494ac2847bdb2db4bc8adb7a8b3.jpg');
+    background-size: cover;
+    background-position: 0 30%;
+    margin-top: 30px;
+}
