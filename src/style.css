@@ -89,7 +89,10 @@ nav h4{
         text-decoration-color: rgb(103, 102, 102); 
         text-underline-offset: 4px;
 }
-
+.link{
+    text-decoration: none;
+    color:rgb(77, 77, 77); 
+}
 .arrow i  {
     opacity: 0;
     font-size: 35px;
