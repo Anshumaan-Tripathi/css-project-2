@@ -102,11 +102,20 @@ nav h4{
 }
 
 #banner-image{
-    height: 100vh;
-    background-image: url('https://plus.unsplash.com/premium_photo-1661302819895-87ed85db1b59?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2ludGVyJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D');
+    height: 1080px;
+    background-image: url('https://hips.hearstapps.com/harpersbazaar/assets/16/03/1453234125-hbz-milan-street-index.jpg');
     background-size: cover;
-    background-position: 0 10%;
+    background-position: 40% 10%;
     margin-top: 30px;
+}
+
+@media screen and (max-width:1300px){
+    #banner-image{
+        height: 500px;
+        background-size: cover;
+        background-position: 10% 0;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width:830px){
@@ -164,7 +173,7 @@ nav h4{
 
 #banner-image{
     height: 60vh;
-    background-position: 93% 30%;
+    background-position: 23% 30%;
     margin-top: 30px;
 }
 
@@ -208,6 +217,13 @@ nav h4{
         margin-right: 40px;
     }
 
+    #banner-image{
+        height: 60vh;
+        background-position: 41% 30%;
+        margin-top: 30px;
+    }
+    
+
 }
 
 @media  screen and (max-width:430px) {
@@ -217,6 +233,6 @@ nav h4{
 
     #banner-image{
         height: 100vh;
-        background-position: -83% 30%
+        background-position: -92% 30%
     }
 }
